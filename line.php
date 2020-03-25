@@ -43,10 +43,6 @@ if ( sizeof($request_array['events']) > 0 )
    		if($text == "ข้อมูลส่วนตัวของผู้พัฒนาระบบ"){
 			$reply_message = '1';
 		}
-	   	$a = 'How are you?';
-
-		if ($a contains 'are')
-    		$reply_message = '2';
 	   
    }
    else
