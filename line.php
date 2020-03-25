@@ -1,7 +1,7 @@
 <?php
 
 $API_URL = 'https://api.line.me/v2/bot/message/reply';
-$ACCESS_TOKEN = 'zfSRSw0HuumsRzK6EUbpbuauPkWmqlY/shvTWs40W16hfOf9qDSMr1et1rELso4OND+Ww4yQsSVNzxUUL38pWNFUnYfNO8u1ghUs1qECMJ8p75ClNzDod9jdixzZJYN47ZTMJBgtyZLfHp1295nWkQdB04t89/1O/w1cDnyilFU='; // Access Token ค่าที่เราสร้างขึ้น
+$ACCESS_TOKEN = 'jy4DuMpLYgywk0aQhP/s4p9jbVMifTgiql45h7ogwk5EhPS3wvYd8RLWFIJ55gej+dBsR2wxTiQHdi62M0G5naS6dNFH40WWni3Zjq4T0H4+2sizItYa6HDz8AKzTCNXP0rYj6jcwTeRnJys6vk8NwdB04t89/1O/w1cDnyilFU='; // Access Token ค่าที่เราสร้างขึ้น
 $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' . $ACCESS_TOKEN);
 
 $COVID_APT_URL = 'https://opend.data.go.th/get-ckan/datastore_search?resource_id=93f74e67-6f76-4b25-8f5d-b485083100b6&limit=5';
