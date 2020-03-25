@@ -33,7 +33,7 @@ if ( sizeof($request_array['events']) > 0 )
 			รักษาหาย	จำนวน 103,753 ราย';
 			$text5 = '
 			ผู้รายงานข้อมูล: นายพัฒนพิสิทธิ์ อินต๊ะ';
-			$reply_message = $text1.$text2;
+			$reply_message = $text1.$text2.$text3.$text4.$text5;
 		}
 		else if(($text== "ตอนนี้อยู่ที่ไหน")||($text== "ตอนนี้อยู่ไหน")||($text== "อยู่ที่ไหน")||($text== "อยู่ไหน")){
 			$reply_message = 'ขณะนี้อยู่ที่ห้องเรียน IF-5T05 ...!!!';
