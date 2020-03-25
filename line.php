@@ -35,7 +35,7 @@ if ( sizeof($request_array['events']) > 0 )
 ผู้รายงานข้อมูล: นายพัฒนพิสิทธิ์ อินต๊ะ';
 			$reply_message = $text1.$text2.$text3.$text4.$text5;
 		}
-		else if($text == "อยู่ไหน"){
+		if($text == "อยู่ไหน"){
 			$reply_message = 'ชื่อนายพัฒนพิสิทธิ์ อินต๊ะ อายุ 24ปี น้ำหนัก 69kg. สูง 167cm. ขนาดรองเท้าเบอร์ 8 ใช้หน่วย US';
 		}
 		else
